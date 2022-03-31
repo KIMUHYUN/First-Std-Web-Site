@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        #wrap {font-size: 40px; text-align: center; text-transform: uppercase; color: #fff;}
+        #header-wrap {width: 100%; height: 100px; background-color: #8d6e63;} /*width: 100% -> 화면을 줄이거나 늘려도 항상 꽉참*/
+        #banner-wrap {background-color: #a1887f;}
+        #content-wrap { background-color: #bcaaa4;}
+        #footer-wrap {background-color: #d7ccc8;}
+        /*width: 100%; 디폴트값이 100%*/  /*height: OOpx; 자식의 크기와 같다면 굳이 안써줘도 됨*/
+        .header-container{width: 1000px; height: 100px; line-height: 100px; margin: 0 auto; background-color: #3e2723;}
+        .banner-container {width: 1000px; height: 300px; line-height: 300px; margin: 0 auto; background-color: #4e342e;}
+        .content-container {width: 1000px; height: 500px; line-height: 500px; margin: 0 auto; background-color: #5d4037;}
+        .footer-container {width: 1000px; height: 100px; line-height: 100px; margin: 0 auto; background-color: #6d4c41;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header-wrap">
+            <div class="header-container">header</div>
+        </div>
+        <div id="banner-wrap">
+            <div class="banner-container">banner</div>
+        </div>
+        <div id="content-wrap">
+            <div class="content-container">content</div>
+        </div>
+        <div id="footer-wrap">
+            <div class="footer-container">footer</div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
